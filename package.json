@@ -1,0 +1,24 @@
+{
+  "name": "myportfolio-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "engines":{
+    "node": "10.16.2",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serv": "nodemon server.js"
+  },
+  "author": "Lenin Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
